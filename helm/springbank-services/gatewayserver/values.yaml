@@ -10,7 +10,7 @@ replicaCount: 1
 
 image:
   repository: ganeshshet/gateway-server
-  tag: v9
+  tag: v10
 
 containerPort: 8072
 

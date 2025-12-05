@@ -5,9 +5,6 @@ dependencies:
 - name: configserver
   repository: file://../../springbank-services/configserver
   version: 0.1.0
-- name: eurekaserver
-  repository: file://../../springbank-services/eurekaserver
-  version: 0.1.0
 - name: accounts
   repository: file://../../springbank-services/accounts
   version: 0.1.0
@@ -23,5 +20,5 @@ dependencies:
 - name: message
   repository: file://../../springbank-services/message
   version: 0.1.0
-digest: sha256:81e4578c874443027e95bfa31b37510d3f0b4d1a047c760d983a4039877e1160
-generated: "2025-12-04T21:25:51.2012877+05:30"
+digest: sha256:83f28c3d7192b13e205fdc0f8d8a0b683ebd0bb205a849a0d43ad1bd0ecbb0c9
+generated: "2025-12-06T00:03:17.5839652+05:30"
