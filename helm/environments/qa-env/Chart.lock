@@ -1,0 +1,27 @@
+dependencies:
+- name: springbank-common
+  repository: file://../../springbank-common
+  version: 0.1.0
+- name: configserver
+  repository: file://../../springbank-services/configserver
+  version: 0.1.0
+- name: eurekaserver
+  repository: file://../../springbank-services/eurekaserver
+  version: 0.1.0
+- name: accounts
+  repository: file://../../springbank-services/accounts
+  version: 0.1.0
+- name: cards
+  repository: file://../../springbank-services/cards
+  version: 0.1.0
+- name: loans
+  repository: file://../../springbank-services/loans
+  version: 0.1.0
+- name: gatewayserver
+  repository: file://../../springbank-services/gatewayserver
+  version: 0.1.0
+- name: message
+  repository: file://../../springbank-services/message
+  version: 0.1.0
+digest: sha256:81e4578c874443027e95bfa31b37510d3f0b4d1a047c760d983a4039877e1160
+generated: "2025-12-04T21:25:51.2012877+05:30"

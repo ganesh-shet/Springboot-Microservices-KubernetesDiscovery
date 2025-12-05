@@ -1,0 +1,17 @@
+package com.microservices.accounts.service.Client;
+
+import com.microservices.accounts.DTO.LoansDTO;
+import jakarta.validation.constraints.Pattern;
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@FeignClient(name="cards", url = "http://loans:8090", fallback = CardsFallback.class)
+public interface LoansFeignClient {
+
+    @GetMapping("/api/loan/loans")
+    public ResponseEntity<LoansDTO> fetchLoanDetails(@RequestHeader("springbank-correlation-id") String correlationId,
+                                                     @RequestParam String mobileNumber);
+}

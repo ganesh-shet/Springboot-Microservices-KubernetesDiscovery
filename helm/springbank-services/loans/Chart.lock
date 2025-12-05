@@ -1,0 +1,6 @@
+dependencies:
+- name: springbank-common
+  repository: file://../../springbank-common
+  version: 0.1.0
+digest: sha256:fe1330b88f798e613864408b759ce8172571ab77b36b1923b0dc82f33854cc0a
+generated: "2025-12-04T21:01:28.9989258+05:30"
